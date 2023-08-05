@@ -1,7 +1,8 @@
-import "./App.css";
+import { Button, ButtonGroup, Grid } from "@chakra-ui/react";
 
 function App() {
-  return <div>tarot</div>;
-}
+  return(
+    <Grid templateAreas={`'nav' 'nav' 'aside' 'main' `}></Grid>
+  ) ;
 
 export default App;
